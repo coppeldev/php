@@ -89,15 +89,17 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $accent-1-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $accent-2-color;
+        //text-decoration: dashed;
+        //text-decoration-style: dashed;
     }
 
     &:hover {
-        color: $text-color;
+        color: $accent-3-color;
         text-decoration: underline;
     }
 }
@@ -109,9 +111,9 @@ a {
  */
 blockquote {
     color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    border-left: 4px solid $accent-1-color;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: -1px;
     font-style: italic;
 

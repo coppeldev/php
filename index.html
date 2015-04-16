@@ -1,23 +1,41 @@
 ---
 layout: default
+id: home
 ---
 
-<div class="home">
+<div class="hero-page">
+  <div class="hero-content">
+    <img class="hero-logo" src="/images/php-logo-white.png" />
+    <div class="tagline">
+      <div class="hero-header">
+        PHP Styleguide
+      </div>
+      <div class="headline">
+        Guia de estilo de programaci&oacute;n
+      </div>
+    </div>
+  </div>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
+<div class="wrapper">
+  <div class="home">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <div>
+      <ul class="icon-menu">
+        <li>
+          <a href="#">
+            <span class="fa fa-rocket"></span>
+            <span>Introducción</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ "/standards" | prepend: site.baseurl }}">
+            <span class="fa fa-book"></span>
+            Estandares
+          </a>
+        </li>
+      </ul>
+    </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  </div>
 </div>

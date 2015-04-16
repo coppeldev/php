@@ -1,0 +1,13 @@
+<ul class="menu">
+  <li class="header">Estandares</li>
+  <li>
+    <a href="{{ "/standards/index.html" | prepend: site.baseurl }}">Introducción</a>
+  </li>
+  {% for page in site.pages %}
+      {% if page.categories == 'php standard' %}
+          <li>
+            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          </li>
+      {% endif %}
+  {% endfor %}
+</ul>

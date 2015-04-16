@@ -1,2 +1,2 @@
-jekyll: bundle exec jekyll build --config _config.yml --trace --watch
+jekyll: jekyll build --config _config_dev.yml --trace --watch
 browser-sync: browser-sync start --config _browser-sync-config.js
