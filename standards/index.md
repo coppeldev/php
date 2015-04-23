@@ -5,6 +5,7 @@ date:   2015-04-14 10:44:15
 categories: root page
 ---
 
+
 En Internet existe una gran cantidad de grupos de personas que se encargan de
 buscar la mejor manera de hacer las cosas en todos los aspectos. Y si hablamos
 de los referentes a las tecnologías de información podemos encontrarnos con
