@@ -268,14 +268,23 @@
         }
     }
 
+    .inner-content,
+    .content {
+        h1 {
+            font-weight: 500;
+        }
+    }
+
     .inner-content {
         margin-left: $content-menu-width + $spacing-unit;
         width: $inner-content-width;
         //border: 1px solid red;
+    }
 
-        h1 {
-            font-weight: 500;
-        }
+    .content {
+        //margin-left: $content-menu-width + $spacing-unit;
+        //width: $inner-content-width;
+        //border: 1px solid red;
     }
 }
 

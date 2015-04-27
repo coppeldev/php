@@ -10,6 +10,7 @@ twitter_username:
 github_username:
 exclude: [Gemfile, Gemfile.lock, Procfile]
 encoding: utf-8
+version: 1
 
 # Build settings
 markdown: redcarpet
