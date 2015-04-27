@@ -3,11 +3,14 @@
   <li>
     <a href="{{ "/standards/index.html" | prepend: site.baseurl }}">Introducción</a>
   </li>
-  {% for page in site.pages %}
+  {% assign pages = site.pages | sort:"menu_order"  %}
+  {% for page in pages %}
       {% if page.categories == 'php standard' %}
+        {% if page.version == site.last_version %}
           <li>
             <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           </li>
+        {% endif %}
       {% endif %}
   {% endfor %}
 </ul>

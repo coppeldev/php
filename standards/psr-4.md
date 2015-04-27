@@ -3,6 +3,8 @@ layout: page-with-content
 title:  "PSR-4"
 date:   2015-04-16 09:09:00
 categories: php standard
+menu_order: 4
+version: 1.0
 ---
 
 # Estándar de autocarga de clases

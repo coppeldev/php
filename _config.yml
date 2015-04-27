@@ -1,6 +1,6 @@
 # Site settings
 title: PHP
-email: sangulo@coppel.com
+email: 
 description: > # this means to ignore newlines until "baseurl:"
   Sitio dedicado a la recopilación de las mejores prácticas y estandares
   para PHP.
@@ -11,5 +11,9 @@ github_username:
 exclude: [Gemfile, Gemfile.lock, Procfile]
 encoding: utf-8
 
+last_version: 1.0
+
 # Build settings
 markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]

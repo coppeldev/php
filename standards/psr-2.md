@@ -3,6 +3,8 @@ layout: page-with-content
 title:  "PSR-2"
 date:   2015-04-14 10:44:15
 categories: php standard
+menu_order: 3
+version: 1.0
 ---
 
 Guía de estilo de codificación

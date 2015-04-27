@@ -3,6 +3,8 @@ layout: page-with-content
 title:  "PSR-1"
 date:   2015-04-14 10:44:15
 categories: php standard
+menu_order: 2
+version: 1.0
 ---
 
 Codificación estándar básica
