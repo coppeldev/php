@@ -25,8 +25,21 @@ Descripción de las recomendaciones.
 
 Las recomendaciones están divididas en un uso en especifico.
 
-- **PSR-0 - Estandar de autocarga de clases:**
-- **PSR-1 - Codificación estandar básica:**
-- **PSR-2 - Guía de estilo de codificación:**
-- **PSR-3 - Interfaz de log:**
-- **PSR-4 - Estándar de autocarga de clases (nueva versión):**
+- **PSR-0 - Estandar de autocarga de clases** (__Obsoleta__)
+    - Habla sobre la manera en la que deberian cargarse las clases, este estandar
+    ha quedado obsoleto pero se sigue presentando por cuestiones de referencias
+    hechas desde otros PSR's.
+- **PSR-1 - Codificación estandar básica**
+    - En su mayoria, este estandar hace referencia a los archivos como tal, la
+    nomenclatura de que deberian de tener, las etiquetas que deberian de utilizar,
+    el encoding del texto y los efectos secundarios que no deberian de presentar.
+- **PSR-2 - Guía de estilo de codificación**
+    - Extiende el estandar PSR-1 y contiene material referente a la sintaxis del
+    código.
+- **PSR-3 - Interfaz de log**
+    - Este estandar no se incluye (hasta el momento) en la documentación y habla
+    acerca de la manera en la que deberian de trabajar las clases __log__.
+- **PSR-4 - Estándar de autocarga de clases (nueva versión)**
+    - Esta es la nueva manera (aceptada) de trabajar con la autocarga de clases.
+    Muchos de los frameworks (p.e. laravel) y clases que existen adoptan este
+    estandar para realizar la autocarga de clases.
