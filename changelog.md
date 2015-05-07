@@ -2,7 +2,7 @@
 layout: single-page
 title: Changelog
 permalink: /changelog/
-categories: root page
+categories: sub page
 ---
 
 

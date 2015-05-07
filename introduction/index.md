@@ -3,6 +3,7 @@ layout: page-with-content
 title:  "Introducción"
 date:   2015-04-14 10:44:15
 categories: root page
+icon: rocket
 ---
 
 Todo el material que encontraras en esta guía de programación utilza una serie

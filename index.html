@@ -21,19 +21,18 @@ id: home
   <div class="home">
 
     <div>
+      {% assign pages = site.pages | sort:"menu_order"  %}
       <ul class="icon-menu">
-        <li>
-          <a href="{{ "/introduction" | prepend: site.baseurl }}">
-            <span class="fa fa-rocket"></span>
-            <span>Introducción</span>
-          </a>
-        </li>
-        <li>
-          <a href="{{ "/standards" | prepend: site.baseurl }}">
-            <span class="fa fa-book"></span>
-            Estandares
-          </a>
-        </li>
+        {% for page in pages %}
+          {% if page.categories == 'root page' %}
+          <li>
+            <a href="{{ page.url | prepend: site.baseurl }}">
+              <span class="fa fa-{{ page.icon }}"></span>
+              <span>{{ page.title }}</span>
+            </a>
+          </li>
+          {% endif %}
+        {% endfor %}
       </ul>
     </div>
 
