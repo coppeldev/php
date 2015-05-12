@@ -1,14 +1,14 @@
 ---
 layout: page-with-content
-title:  "PSR-1"
+title:  "Codificación estándar básica"
+menu_title: "PSR-1"
 date:   2015-04-14 10:44:15
 categories: php standard
 menu_order: 2
 version: 1.0
 ---
 
-Codificación estándar básica
-============================
+<div id="toc"></div>
 
 Esta sección de la norma comprende lo que debe considerarse la norma de codificación de los elementos que se requieren para garantizar un alto nivel técnico de interoperabilidad entre el código PHP.
 

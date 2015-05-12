@@ -1,14 +1,14 @@
 ---
 layout: page-with-content
-title:  "PSR-0"
+title:  "Estándar de autocarga de clases"
+menu_title: "PSR-0"
 date:   2015-04-14 10:44:15
 categories: php standard
 menu_order: 1
 version: 1.0
 ---
 
-Estándar de autocarga de clases
-===============================
+<div id="toc"></div>
 
 > **Obsoleto** - A partir del 21/10/2014 el estándar PSR-0 se ha marcado como obsoleto. Ahora se recomienda [PSR-4]
 como alternativa.

@@ -1,14 +1,14 @@
 ---
 layout: page-with-content
-title:  "PSR-2"
+title:  "Guía de estilo de codificación"
+menu_title: "PSR-2"
 date:   2015-04-14 10:44:15
 categories: php standard
 menu_order: 3
 version: 1.0
 ---
 
-Guía de estilo de codificación
-===============================
+<div id="toc"></div>
 
 Esta guía amplía y extiende el estándar de codificación básica [PSR-1][].
 

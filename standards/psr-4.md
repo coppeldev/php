@@ -1,13 +1,14 @@
 ---
 layout: page-with-content
-title:  "PSR-4"
+title:  "Estándar de autocarga de clases"
+menu_title: "PSR-4"
 date:   2015-04-16 09:09:00
 categories: php standard
 menu_order: 4
 version: 1.0
 ---
 
-# Estándar de autocarga de clases
+<div id="toc"></div>
 
 > En el documento original se usa el [RFC 2119][] para el uso de las palabras
 MUST, MUST NOT, SHOULD, SOULD NOT y MAY. Para que la traducción sea lo más fiel

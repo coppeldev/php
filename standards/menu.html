@@ -8,7 +8,7 @@
       {% if page.categories == 'php standard' %}
         {% if page.version == site.last_version %}
           <li>
-            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.menu_title }}</a>
           </li>
         {% endif %}
       {% endif %}

@@ -11,6 +11,21 @@
 
     {% include footer.html %}
 
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/toc.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('#toc').toc({
+        title: '<i>Contenido</i>',
+        listType: 'ul',
+        minimumHeaders: 3,
+        showEffect: 'slideDown',
+        showSpeed: 5
+      });
+    });
+    </script>
+
     <script type="text/javascript">
     /*
     var WebFontConfig = {
