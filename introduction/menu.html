@@ -5,7 +5,7 @@
   </li>
   {% assign pages = site.pages | sort:"menu_order"  %}
   {% for page in pages %}
-      {% if page.categories == 'introduction' %}
+      {% if page.categories contains 'introduction' %}
         {% if page.version == site.last_version %}
           <li>
             <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>

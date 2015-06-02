@@ -1,0 +1,14 @@
+<ul class="menu">
+  <li class="header">Introducción</li>
+  <li>
+    <a href="{{ "/tools/index.html" | prepend: site.baseurl }}">Introducción</a>
+  </li>
+  {% assign pages = site.pages | sort:"menu_order"  %}
+  {% for page in pages %}
+      {% if page.categories contains 'tools' %}
+        <li>
+          <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        </li>
+      {% endif %}
+  {% endfor %}
+</ul>
