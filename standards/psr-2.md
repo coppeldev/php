@@ -24,7 +24,6 @@ MAY como el verbo PODER.
 [PSR-0]: {{ "/standards/psr-0.html" | prepend: site.baseurl }}
 [PSR-1]: {{ "/standards/psr-1.html" | prepend: site.baseurl }}
 
-
 1. Visión general
 -----------------
 
